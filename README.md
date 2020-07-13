@@ -23,6 +23,8 @@ This programme uses SQLite and TextBlob https://textblob.readthedocs.io/en/dev, 
 
 2. Run tw_search_index_21may_final.py. This programme will index all the data in tweet_search.sqlite, using TextBlob to get the dictionary definitions of words. The results are put in the database twitter_search_index_4.sqlite.
 
+3. Run tw_basic_13july_final.py. This programme wil ask you to input the search term you want to learn more about, then print out the total number of tweets, a couple of tweets and the details of the most popular tweet. The outputs are printed in the console.
+
 
 ### The current output of the index is:
 - Tweet: Text, Posted_At, Retweets, URL (_often inaccurate_), Sentiment (Scale from Negative = -100 to Positive = +100; found using Textblob)
