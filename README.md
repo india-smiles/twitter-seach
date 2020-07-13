@@ -25,6 +25,8 @@ This programme uses SQLite and TextBlob https://textblob.readthedocs.io/en/dev, 
 
 3. Run tw_basic_13july_final.py. This programme wil ask you to input the search term you want to learn more about, then print out the total number of tweets, a couple of tweets and the details of the most popular tweet. The outputs are printed in the console.
 
+4. Run tw_word_13july_final.py. This programme will ask you to input the search term you want to learn more about, then direct you to open a HTM file it has just created. This will generate a D3 word cloud, where upto 100 words are shown with sizes corresponding to how often they are used in tweets
+
 
 ### The current output of the index is:
 - Tweet: Text, Posted_At, Retweets, URL (_often inaccurate_), Sentiment (Scale from Negative = -100 to Positive = +100; found using Textblob)
@@ -39,9 +41,14 @@ and there's a linking table Tweet Words to match the many-to-many relationship o
 
 
 ### What is missing from the programme:
-*Visualisations (TBD)
+*Glossary for most popular words
+*Analysis of semantics vs. retweets by topic
+*Uploading into a website to run automatically
 
-*Twitter application set-up guide
+### Improvements planned for these files:
+*Error-proofing
+*Apply NLP to only keep meaningful words e.g. nouns, verbs, Pronouns
+*Fix print with b'' in basic file
 
 
 # Would love any comments! Good luck :+1:
